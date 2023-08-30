@@ -10930,10 +10930,11 @@ header.masthead .bg-circle-4 {
   background: -webkit-linear-gradient(top,#b31919 0,#701010 100%);
   list-style-type: none;
   text-align: center;
-  margin-top: 155px;
+  margin-top: 95px;
   padding-left: 500px;
   position:relative;
   width: 100%;
+  height: 56px;
 }
 
 .nav li a {
@@ -10947,12 +10948,31 @@ header.masthead .bg-circle-4 {
 
 .img-pub-nav{
   margin-left: 500px;
+  width: 728px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.etiquette-pub-nav{
+  color: #fff;
+  position: absolute;
+  bottom: 8px;
+  right: 450px;
+  border: 1px solid #fff;
+  width: 90px;
+  height: 30px;
+  padding-left: 15px;
+  padding-top: 2px;
+  margin-bottom: 13px;
+  border-radius: 15px;
+  background: red;
 }
 
 li:hover{
   background: var(--bs-yellow);
 
 }
+
 
 
 
